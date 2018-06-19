@@ -1,0 +1,697 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: #f7f7f7;
+	color: #000;
+}
+
+.title {
+	font-size: 42px;
+	font-weight: 900;
+	line-height: 42px;
+}
+.page-header {
+
+}
+
+.header-slider {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-image: url(../image/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10px 15% 5%;
+}
+
+.header-nav {
+	display: flex;
+	margin-top: 30px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.index-logo {
+	width: 175px;
+}
+
+.index-menu {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	list-style: none;
+	
+}
+
+.index-menu a {
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.drop-menu {
+	display: none;
+}
+
+.slider-description {
+	margin-top: 150px;
+	text-transform: uppercase;
+	max-width: 580px;
+	padding: 0 5px;
+}
+
+.description-questions {
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0 0 10px;
+}
+
+.description-help {
+	font-size: 30px;
+	line-height: 32px;
+	margin: 0;
+	color: #faa21a;
+}
+
+.index-preview {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 5% 15%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #fff;
+	color: #000;
+}
+
+
+/*MAIN*/
+
+.page-main {
+	max-width: 1970px;
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+/*GLOBAL SECTION AND TITLE*/
+
+.section {
+	width: 452px;
+	min-height: 350px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	flex-grow: 1;
+	box-sizing: border-box;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.section:hover,
+.section:focus {
+	-webkit-box-shadow: 0px 0px 28px 0px rgba(250,162,26,1);
+	-moz-box-shadow: 0px 0px 28px 0px rgba(250,162,26,1);
+	box-shadow: 0px 0px 28px 0px rgba(250,162,26,1);
+	transform: scale(1.04);
+	outline: 1px solid #faa21a;
+}
+
+.title {
+	text-align: center;
+	margin: 0;
+	margin-top: 30px;
+	color: #faa21a;
+}
+
+.description {
+	font-size: 14px;
+	margin-top: 30px;
+	text-indent: 5px;
+}
+
+/*AIR*/
+
+.air {
+	background-image: url(../image/air_bg.png);
+	background-position: left;
+	padding-left: 150px;
+	padding-right: 20px;
+}
+
+.air-description {
+	margin-top: 50px;
+}
+
+/*CAR*/
+
+.car {
+	background-image: url(../image/car_bg.png);
+	background-position: right;
+	padding-right: 150px;
+	padding-left: 20px;
+}
+
+.title-block {
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.car-title--desc {
+	font-size: 42px;
+	font-weight: 500;
+}
+
+/*VISA*/
+
+.visa {
+	background-image: url(../image/visa_bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.visa-title {
+	text-align: center;
+	font-size: 42px;
+	color: #fff;
+	font-weight: 900;
+	margin-top: 70px;
+}
+
+.visa-description {
+	font-size: 14px;
+	background-color: rgba(254,254,254,0.7);
+	padding: 15px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+/*DRIVING*/
+
+.driving {
+	background-image: url(../image/driving_bg.png);
+	background-position: right;
+}
+
+.driving-content {
+	max-width: 420px;
+	background-color: rgba(255,255,255,0.7);
+	padding: 15px;
+	margin-top: 48px;
+	margin-left: 50px;
+}
+
+.driving-title {
+	margin: 0;
+	text-align: center;
+}
+
+.driving-title span {
+	font-size: 38px;
+	font-weight: 400;
+	color: #000;
+}
+
+.driving-description {
+ 	font-size: 12px;
+ 	font-weight: 600;
+}
+
+
+/*EVENT*/
+
+.event {
+	background-image: url(../image/event_bg.png);
+	background-size: cover;
+	background-position: center;
+	min-height: 385px;
+	width: 100%;
+	padding: 35px;
+}
+
+.event-content {
+	max-width: 1200px;
+	min-height: 357px;
+	background-color: rgba(255,255,255,0.7);
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-image: url(../image/picnic.png);
+	background-repeat: no-repeat;
+	background-position: 20px center;
+	background-size: 40%;
+	padding: 20px;
+	padding-left: 45%;
+
+}
+
+.event-title {
+	color: green;
+}
+
+
+/*MEDICAL*/
+
+.medical {
+	background-image: url(../image/medical_bg.png);
+	background-size: cover;
+}
+
+.medical-title {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: darkred;
+}
+
+.medical-description {
+	width: 60%;
+	margin: 0 auto;
+	font-weight: 600;
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 10px;
+	text-indent: 5px;
+	color: darkred;
+	padding: 10px;
+	text-align: center;
+}
+
+/*RESIDENCE*/
+
+.residence {
+	background-image: url(../image/residense_bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.residence-content {
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.residence-title {
+	color: #8B4513;
+}
+
+.residence-description {
+	color: #8B4513; 
+	font-weight: bold;
+}
+
+/*KINDERGARTENS*/
+
+.kindergartens {
+	background-color: rgba(238, 130, 238,0.3);
+	padding: 10px;
+}
+
+.kindergartens-img {
+	width: 90%;
+	margin: 5% 5% 0;
+}
+
+.kindergartens-title  {
+	color: #800080;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.kindergartens-description {
+	color: #800080;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0 30px;
+}
+
+
+/*UNIVERSITIES*/
+
+.universities {
+	padding: 10px;
+}
+
+.universities-img {
+	width: 90%;
+	margin: 5% 5% 0;
+}
+
+.universities-title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	color: #4B0082;
+}
+
+.universities-description {
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0 30px;
+	color: #4B0082;
+}
+
+.nostrification {
+	background-image: url(../image/nostrif_bg.png);
+	background-position: left;
+	padding-left: 150px;
+	padding-right: 20px;
+}
+
+.nostrification-title {
+		font-size: 32px;
+}
+
+.nostrification-description {
+	margin-top: 50px;
+}
+
+.rent {
+	background-image: url(../image/rent_bg.png);
+	background-position: right;
+	padding-right: 150px;
+	padding-left: 20px;
+}
+
+.rent-title {
+	margin-bottom: 50px;
+	font-size: 42px;
+	text-align: center;
+}
+
+
+.hotels {
+	background-image: url(../image/hotels_bg.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.hotels-title {
+	color: #fff;
+	width: 30%;
+	margin-left: 50%;
+}
+
+.hotels-description {
+	margin-left: auto;
+	padding: 10px 20px;
+	width: 60%;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.translation {
+	background-image: url(../image/transition_bg.png);
+	background-position: center;
+	background-size: cover;
+	padding: 5px 20px;
+}
+
+.translation-title {
+	text-align: center;
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.translation-description {
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	padding: 10px;
+}
+
+.insurance {
+	width: 100%;
+	padding: 20px;
+}
+
+.insurance-title {
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.insurance-description--block {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+}
+
+.insurance-description {
+	margin: 10px;
+}
+
+
+.maintenance {
+	background-image: url(../image/maintenance_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20px;
+}
+
+
+.maintenance-content {
+	width: 70%;
+	background-color: rgba(255,255,255,0.7);
+	margin-left: auto;
+	margin-top: 30px;
+	padding: 5px 15px;
+}
+
+.maintenance-title {
+	margin: 0;
+	text-align: center;
+}
+
+
+.support {
+	background-image: url(../image/support_bg.png);
+	background-position: center;
+	background-size: cover;
+}
+
+.content-block {
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 100px;
+}
+
+.support-title {
+	text-align: center;
+	color: #000;
+}
+
+.support-description {
+	padding: 10px 50px;
+}
+
+@media (max-width: 1023px) {
+}
+
+@media (max-width: 768px) {
+	/*MEDIA HEADER*/
+	.header-slider {
+		max-width: 768px;
+		margin: 0 auto;
+		padding: 10px 30px 5%;
+	}
+	/*MEDIA MAIN*/
+	.page-main {
+		max-width: 768px;
+		padding: 10px;
+	}
+	/*MEDIA EVENT*/
+	.event-content {
+		background-image: none;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.event-title {
+		margin: 50px 0 50px;
+		text-align: center;
+	}
+
+	.universities-img,
+	.kindergartens-img {
+		width: 100%;
+		margin: 0;
+	}
+
+	.kindergartens-title,
+	.universities-title {
+		margin: 10px;
+		line-height: 32px;
+		font-size: 28px;
+	}
+
+	.kindergartens-description,
+	.universities-description {
+		margin-bottom: 5px;
+	}
+
+	.nostrification {
+		padding-right: 2%;
+	}
+	
+}
+
+@media (max-width: 425px) {
+
+	/*MEDIA HEADER*/
+	.header-slider {
+		max-width: 425px;
+		margin: 0 auto;
+		padding: 10px 30px 5%;
+	}
+
+	/*MEDIA NAV*/
+	.header-nav {
+		display: flex;
+		margin-top: 30px;
+		justify-content: space-around;
+		flex-direction: column;
+	}
+
+	/*MEDIA MENU*/
+	.index-menu {
+		text-align: center;
+		margin-top: 20px;
+		font-weight: bold;
+	}
+
+	.index-menu a {
+		color: #fff;
+	}
+
+	.index-logo {
+		text-align: center;
+	}
+
+	.slider-description {
+		max-width: 250px;
+		margin: 100px auto 30px;
+	}
+
+	.description-questions,
+	.description-help {
+		font-size: 15px;
+		color: #fff;
+		text-align: center;
+	}
+
+	.description-help {
+		color: #000;
+		font-weight: bold;
+	}
+
+	.preview-description {
+		font-weight: 500;
+		font-size: 14px;
+	}
+
+	/*MEDIA SECTION*/
+	.section {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.title {
+		font-size: 28px;
+	}
+
+	/*MEDIA CAR/AIR*/
+	.car-title,
+	.air-title,
+	.nostrification-title,
+	.rent-title {
+		margin-top: 10px;
+	}
+
+	.air-description,
+	.car-description,
+	.nostrification-description,
+	.rent-description {
+		margin-top: 20px;
+	}
+
+	/*MEDIA DRIVING*/
+	.driving {
+		background-size: cover;
+	}
+
+	/*MEDIA EVENT*/
+	.event {
+		padding: 0;
+	}
+
+	.event-content {
+		padding: 5px;
+		margin-top: 15px;
+	}
+
+	.event-title {
+		margin-bottom: 20px;
+	}
+
+	.kindergartens-title,
+	.universities-title {
+		margin: 10px;
+		line-height: 32px;
+	}
+
+	.kindergartens-description,
+	.universities-description {
+		margin-bottom: 5px;
+	}
+	
+	.insurance-description--block {
+		flex-direction: column;
+	}
+
+
+
+}
+
+@media (max-width: 375px) {
+
+	/*MEDIA CAR/AIR*/
+	.car,
+	.air,
+	.nostrification,
+	.rent {
+		padding: 10px;
+		text-align: center;
+		background-image: none;
+	}
+
+	/*MEDIA DRIVING*/
+	.driving-content {
+	    margin-top: 17px;
+    	margin-left: 0;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+	/*MEDIA DRIVING*/
+	.driving-content {
+	    margin-top: 0;
+    }
+
+}
